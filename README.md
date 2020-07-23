@@ -1,6 +1,6 @@
-# RiverGuage
+# RiverGauge
 Lower Mississippi River Stages
 
-The outer folder is misspelled to diferentiate from the old RiverGauge.
+xCode 11.6 - works
 
 
