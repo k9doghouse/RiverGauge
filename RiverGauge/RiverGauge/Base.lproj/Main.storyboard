@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController restorationIdentifier="mainStoryBoard" storyboardIdentifier="mainStoryBoard" id="BYZ-38-t0r" customClass="ViewController" customModule="RiverGauge" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="View1" id="8bC-Xf-vdC" userLabel="View1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="pastelRiverScene" image="pastelRiverScene.png" translatesAutoresizingMaskIntoConstraints="NO" id="067-BS-vN1">
+                                <rect key="frame" x="0.0" y="0.0" width="281.33333333333331" height="736"/>
+                                <color key="tintColor" red="0.92687752830000003" green="1" blue="0.93207451029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="LMSRGLabel" text="Lower Mississippi River Gauge" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyJ-sj-0CG">
+                                <rect key="frame" x="31" y="19" width="350" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="lIk-sT-pWF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.87697152970000003" green="1" blue="0.90408190470000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="observationLabel" text="Time the river gauge was read." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjG-R0-gq4">
+                                <rect key="frame" x="31" y="75" width="350" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="zxB-qe-1L1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.87697152970000003" green="1" blue="0.90408190470000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="stationLabel" text="Station name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCB-fa-Ew9">
+                                <rect key="frame" x="31" y="129" width="350" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="n1M-qv-uV3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="24"/>
+                                <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="floodLabel" text="Station flood stage." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oy3-lX-agN" userLabel="floodLabel">
+                                <rect key="frame" x="31" y="185" width="350" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="wX3-JZ-CoH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="24"/>
+                                <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="currentLabel" text="  Current river gauge." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qz8-hi-T2l">
+                                <rect key="frame" x="31" y="410" width="350" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="L01-4E-VQa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="24"/>
+                                <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="forcastLabel" text="  Tomorrow's river gauge." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQW-kn-t9z">
+                                <rect key="frame" x="31" y="466" width="350" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="uDZ-QD-L6W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="24"/>
+                                <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="center" verticalHuggingPriority="251" restorationIdentifier="oneDayAfterLabel" text="  1 day after tomorrow's gauge." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fR-YN-tFu" userLabel="Day after tomorrow gauge.">
+                                <rect key="frame" x="31" y="542" width="350.66666666666669" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Ikn-nu-mfD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="24"/>
+                                <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="nowDateTimeLabel" text="   Time now: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2e-w6-Jmj">
+                                <rect key="frame" x="31" y="652" width="350.66666666666669" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="zSo-uq-0hd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="18"/>
+                                <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="twoDaysAfter" text="  2 days after tomorrow's gauge." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUX-4q-eko">
+                                <rect key="frame" x="31" y="598" width="350.66666666666669" height="48"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="TSV-LL-tTF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="24"/>
+                                <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <pickerView opaque="NO" clipsSubviews="YES" alpha="0.90000000000000002" contentMode="scaleToFill" restorationIdentifier="stationPicker" translatesAutoresizingMaskIntoConstraints="NO" id="0l5-Wi-gCg">
+                                <rect key="frame" x="31.666666666666657" y="241" width="350" height="180"/>
+                                <color key="backgroundColor" red="0.99708759609999997" green="0.99942404029999998" blue="0.87322015500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.92687752830000003" green="1" blue="0.93207451029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES"/>
+                                </accessibility>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92687752830000003" green="1" blue="0.93207451029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.066490595459999996" green="0.47975491749999999" blue="0.39833159480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tQW-kn-t9z" firstAttribute="leading" secondItem="0l5-Wi-gCg" secondAttribute="leading" constant="-0.66666666666665719" id="1AQ-yM-81a"/>
+                            <constraint firstItem="qz8-hi-T2l" firstAttribute="leading" secondItem="tQW-kn-t9z" secondAttribute="leading" id="32G-jb-RYt"/>
+                            <constraint firstItem="Y2e-w6-Jmj" firstAttribute="top" secondItem="gUX-4q-eko" secondAttribute="bottom" constant="6" id="70a-RK-vyQ"/>
+                            <constraint firstItem="eyJ-sj-0CG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="8qD-1R-jdY"/>
+                            <constraint firstItem="eyJ-sj-0CG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="8z0-eI-TiR"/>
+                            <constraint firstItem="eyJ-sj-0CG" firstAttribute="trailing" secondItem="TjG-R0-gq4" secondAttribute="trailing" id="9mV-nf-r6X"/>
+                            <constraint firstItem="3fR-YN-tFu" firstAttribute="top" secondItem="0l5-Wi-gCg" secondAttribute="bottom" constant="121" id="FoX-Zg-4bf"/>
+                            <constraint firstItem="tQW-kn-t9z" firstAttribute="top" secondItem="qz8-hi-T2l" secondAttribute="bottom" constant="8" id="Hb6-06-XkL"/>
+                            <constraint firstItem="oy3-lX-agN" firstAttribute="leading" secondItem="qz8-hi-T2l" secondAttribute="leading" id="IBg-So-a3h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eyJ-sj-0CG" secondAttribute="trailing" constant="33" id="IHT-ZI-ndv"/>
+                            <constraint firstItem="wCB-fa-Ew9" firstAttribute="leading" secondItem="oy3-lX-agN" secondAttribute="leading" id="KXi-qr-O7A"/>
+                            <constraint firstItem="3fR-YN-tFu" firstAttribute="leading" secondItem="Y2e-w6-Jmj" secondAttribute="leading" id="N69-DM-3Zw"/>
+                            <constraint firstItem="wCB-fa-Ew9" firstAttribute="top" secondItem="TjG-R0-gq4" secondAttribute="bottom" constant="6" id="NxM-MQ-UAC"/>
+                            <constraint firstItem="0l5-Wi-gCg" firstAttribute="top" secondItem="tQW-kn-t9z" secondAttribute="bottom" constant="-273" id="OMJ-P2-gXL"/>
+                            <constraint firstItem="TjG-R0-gq4" firstAttribute="top" secondItem="eyJ-sj-0CG" secondAttribute="bottom" constant="8" symbolic="YES" id="Ocj-Ee-kGI"/>
+                            <constraint firstItem="3fR-YN-tFu" firstAttribute="trailing" secondItem="0l5-Wi-gCg" secondAttribute="trailing" id="T1h-57-lUb"/>
+                            <constraint firstItem="067-BS-vN1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Tch-zp-qgj"/>
+                            <constraint firstItem="tQW-kn-t9z" firstAttribute="trailing" secondItem="0l5-Wi-gCg" secondAttribute="trailing" constant="-0.66666666666662877" id="UoJ-iP-dRO"/>
+                            <constraint firstItem="oy3-lX-agN" firstAttribute="top" secondItem="wCB-fa-Ew9" secondAttribute="bottom" constant="8" symbolic="YES" id="VcJ-z6-9S8"/>
+                            <constraint firstItem="3fR-YN-tFu" firstAttribute="trailing" secondItem="gUX-4q-eko" secondAttribute="trailing" id="VwQ-z2-4EM"/>
+                            <constraint firstItem="qz8-hi-T2l" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tQW-kn-t9z" secondAttribute="leading" id="WEx-yO-P2F"/>
+                            <constraint firstItem="wCB-fa-Ew9" firstAttribute="trailing" secondItem="oy3-lX-agN" secondAttribute="trailing" id="bdo-bw-ZxQ"/>
+                            <constraint firstItem="gUX-4q-eko" firstAttribute="top" secondItem="3fR-YN-tFu" secondAttribute="bottom" constant="8" symbolic="YES" id="cWT-HK-M0f"/>
+                            <constraint firstItem="wCB-fa-Ew9" firstAttribute="leading" secondItem="TjG-R0-gq4" secondAttribute="leading" id="fuC-G1-Qg9"/>
+                            <constraint firstItem="Y2e-w6-Jmj" firstAttribute="trailing" secondItem="gUX-4q-eko" secondAttribute="trailing" id="g2T-36-Psc"/>
+                            <constraint firstItem="eyJ-sj-0CG" firstAttribute="leading" secondItem="TjG-R0-gq4" secondAttribute="leading" id="gmZ-P1-Xnz"/>
+                            <constraint firstItem="qz8-hi-T2l" firstAttribute="trailing" secondItem="tQW-kn-t9z" secondAttribute="trailing" id="gqx-N4-2MO"/>
+                            <constraint firstItem="3fR-YN-tFu" firstAttribute="leading" secondItem="gUX-4q-eko" secondAttribute="leading" id="jSD-93-nem"/>
+                            <constraint firstItem="067-BS-vN1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="muU-SD-iI4"/>
+                            <constraint firstItem="qz8-hi-T2l" firstAttribute="top" secondItem="oy3-lX-agN" secondAttribute="bottom" constant="177" id="nUq-tr-411"/>
+                            <constraint firstItem="TjG-R0-gq4" firstAttribute="trailing" secondItem="wCB-fa-Ew9" secondAttribute="trailing" id="ohp-R7-OYZ"/>
+                            <constraint firstItem="tQW-kn-t9z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gUX-4q-eko" secondAttribute="leading" id="sMc-Nh-IpR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y2e-w6-Jmj" secondAttribute="bottom" constant="36" id="scL-FG-acY"/>
+                            <constraint firstItem="067-BS-vN1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wlD-1w-Q11"/>
+                            <constraint firstItem="oy3-lX-agN" firstAttribute="trailing" secondItem="qz8-hi-T2l" secondAttribute="trailing" id="zM1-NZ-MQQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="LMSRGLabel" destination="eyJ-sj-0CG" id="Ac3-uv-Nee"/>
+                        <outlet property="currentLabel" destination="qz8-hi-T2l" id="vTr-j7-Z1o"/>
+                        <outlet property="floodLabel" destination="oy3-lX-agN" id="vj5-yT-qKx"/>
+                        <outlet property="forecastLabel" destination="tQW-kn-t9z" id="Mkh-so-gdn"/>
+                        <outlet property="nowDateTimeLabel" destination="Y2e-w6-Jmj" id="sOL-Wc-YUw"/>
+                        <outlet property="observationLabel" destination="TjG-R0-gq4" id="WSE-zh-L8Q"/>
+                        <outlet property="oneDayAfterLabel" destination="3fR-YN-tFu" id="lRD-NT-8Wk"/>
+                        <outlet property="stationLabel" destination="wCB-fa-Ew9" id="xZ8-b8-f10"/>
+                        <outlet property="stationPicker" destination="0l5-Wi-gCg" id="Zqe-8Z-crr"/>
+                        <outlet property="twoDaysAfterLabel" destination="gUX-4q-eko" id="V61-yW-fsy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.92687752830000003" green="1" blue="0.93207451029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <image name="pastelRiverScene.png" width="281.20755004882812" height="499.24526977539062"/>
+    </resources>
+</document>
